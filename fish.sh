@@ -5,8 +5,7 @@ sudo apt-get install -y fish
 chsh -s $(which fish)
 
 # Install plugin manager
-fish
-curl -sL https://git.io/fisher | source
+fish -c "curl -sL https://git.io/fisher | source"
 
 # Install plugins
 fisher install jorgebucaran/fisher
