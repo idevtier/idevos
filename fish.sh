@@ -2,7 +2,8 @@
 
 # Install and set fish shell
 sudo apt-get install -y fish 
-chsh $(which fish)
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
 
 # Install plugin manager
 curl -sL https://git.io/fisher | source
