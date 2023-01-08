@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-./vars.sh
+./apps.sh
 ./tmux.sh
 ./nvim.sh
