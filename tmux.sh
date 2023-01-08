@@ -21,7 +21,7 @@ if [ -e $TMUX_CONFIG_MAIN_FILE ]; then
     mkdir -p ~/old_files
     mv $TMUX_CONFIG_MAIN_FILE $ARCHIVE_PATH
 fi
-ln -s $TMUX_CONFIG_MAIN_FILE "$TMUX_CONFIG_FOLDER_PATH/.tmux.conf"
+ln -s "$TMUX_CONFIG_FOLDER_PATH/.tmux.conf" $TMUX_CONFIG_MAIN_FILE 
 
 # Source new config
 . $TMUX_CONFIG_MAIN_FILE
