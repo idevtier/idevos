@@ -8,8 +8,8 @@ chsh -s $(which fish)
 fish -c "curl -sL https://git.io/fisher | source"
 
 # Install plugins
-fisher install jorgebucaran/fisher
-fisher install jethrokuan/z
-fisher install patrickf1/fzf.fish
-fisher install edc/bass
-fisher install fabioantunes/fish-nvm
+fish -c "fisher install jorgebucaran/fisher"
+fish -c "fisher install jethrokuan/z"
+fish -c "fisher install patrickf1/fzf.fish"
+fish -c "fisher install edc/bass"
+fish -c "fisher install fabioantunes/fish-nvm"
