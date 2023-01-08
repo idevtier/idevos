@@ -9,7 +9,7 @@ if [ -d $TMUX_CONFIG_FOLDER_PATH ]; then
     mkdir -p ~/old_files
     mv ~/.config/tmux ~/old_files
 fi
-git clone $TMUX_REPOSITORY ~/.config
+git clone $TMUX_REPOSITORY "$HOME/.config"
 
 # Install tmux
 sudo apt-get install tmux
