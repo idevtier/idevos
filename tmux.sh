@@ -12,7 +12,9 @@ fi
 git clone $TMUX_REPOSITORY "$HOME/.config/tmux"
 
 # Install tmux
-sudo apt-get install tmux
+sudo apt-get install tmux urlview fzf lazygit
+pip install libtmux
+
 # Install tmux plugins manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
